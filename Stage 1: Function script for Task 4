@@ -1,0 +1,33 @@
+""" Define a function called hamming_distance, composed of two 
+strings for the Slack and Twitter usernames (username1 and username2)
+"""
+
+def hamming_distance(username1, username2):
+    if len(username1) != len(username2):
+        raise InvalidValueError("Strings must be of equal length to compute hamming distance.") # Verify that the two usernames are of equal length
+
+    distance = 0  # Ensures that the distance counter begins from zero
+    
+    # Create a loop to compare characters (c) at the same position (index) between both usernames 
+    for c in range(len(username1)):
+        if username1[c] != username2[c]:
+            distance += 1  # Increase the distance variable count by 1 for every difference found
+
+    return distance
+
+# Call the function, assigning the specific Slack and Twitter usernames for each team member
+distance1 = hamming_distance("AmakaMadubuike", "AmakaMadubuike")
+distance2 = hamming_distance("Mirra", "mirr9")
+distance3 = hamming_distance("PreciousGift", "PreciousGift")
+distance4 = hamming_distance("SamuelEA", "Samuel18")
+distance5 = hamming_distance("DrIhotu89", "Cyndy8436")
+distance6 = hamming_distance("Saurabh", "Saurabh")
+
+""" The hamming distance between the Slack and Twitter usernames for each team member can be determined by running the prompt:
+print(distance1)
+print(distance2)
+print(distance3)
+print(distance4)
+print(distance5)
+print(distance6)
+"""
