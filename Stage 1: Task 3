@@ -1,0 +1,20 @@
+#function for determining the time to reach 80% of the maximum growth; usually the carrying capacity.
+def time_to_80_percent_growth(K, P, r, dt=0.01):
+     # Calculate the population at 80% of the carrying capacity
+    t = 0
+    P_target = 0.8 * K
+  
+     # Calculate the time to reach 80% of the carrying capacity
+    while P < P_target:
+        P += r * P * (1 - P / K) * dt  # Logistic growth equation
+        t += dt
+    
+    return t
+
+# Example usage
+K = 1000  # Carrying capacity
+P = 10   # Initial population
+r = 0.1   # Growth rate
+
+result = time_to_80_percent_growth(K, P, r)
+print("Time to reach 80% of carrying capacity:", result)
