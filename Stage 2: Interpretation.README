@@ -1,4 +1,25 @@
 Interpretation of Protein Mutation Analysis Results
+Original_aa frequency table
+A	11828
+V	6241
+T	5388
+D	5357
+R	5011
+E	4928
+G	4748
+S	4723
+L	4165
+P	3850
+Q	3450
+I	3161
+N	2834
+K	2458
+H	2016
+M	1805
+F	1347
+Y	1040
+C	584
+W	403
 
 This analysis aimed to identify amino acid mutations that significantly impact both protein structure and function. By integrating SIFT scores (functional impact) and FoldX scores (structural impact), we pinpointed deleterious mutations – those predicted to disrupt both stability and activity.
 
