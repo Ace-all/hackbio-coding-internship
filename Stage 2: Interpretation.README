@@ -1,0 +1,11 @@
+Interpretation of Protein Mutation Analysis Results
+
+This analysis aimed to identify amino acid mutations that significantly impact both protein structure and function. By integrating SIFT scores (functional impact) and FoldX scores (structural impact), we pinpointed deleterious mutations – those predicted to disrupt both stability and activity.
+
+Our findings reveal a clear bias towards certain amino acids in these damaging mutations. Notably, Alanine (A) emerged as the most frequently mutated residue, indicating its critical role in the structural and functional integrity of the proteins studied. This suggests that Alanine residues are particularly susceptible to mutations that destabilize protein folds and impair functional activity.
+
+Further analysis of amino acids with high mutation frequencies (>100 occurrences) highlighted the prevalence of hydrophobic residues (e.g., Valine, Leucine, Isoleucine). This underscores the importance of hydrophobic interactions in maintaining protein stability. Disruptions to these interactions, as indicated by high FoldX scores, appear to be a major driver of structural damage.
+
+The frequent occurrence of polar and charged amino acids (e.g., Aspartic acid, Glutamic acid, Arginine) suggests that mutations impacting polar interactions and charge distribution also contribute significantly to structural and functional impairment. Additionally, the presence of Glycine and Proline, known for their unique structural roles, reinforces the idea that mutations affecting protein flexibility and rigidity are often detrimental.
+
+In summary, this study demonstrates that mutations affecting a broad spectrum of amino acid types can have deleterious consequences. The high frequency of Alanine, coupled with the prevalence of hydrophobic, polar, and charged residues, highlights the intricate interplay between amino acid composition, protein structure, and functional activity. These insights provide a foundation for further investigations into the specific roles of these residues in individual proteins and their associated biological pathways.
